@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+hr{
+    margin: 2rem 0rem ;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+ 
+}
+.primary{
+      background-color: #4ade80;
+      border-radius: 0.5rem;
+      color: white;
+}
+.secondary{
+    color: #4ade80;
+    border-radius: 0.5rem;
+    border: 1px solid #4ade80 ;
+}
+
+.bullet{
+    list-style: none;
+}
+
+.inline{
+ display: inline;
+ padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color:#4ade80 ;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation.link{
+    color: white;
+}
+.navigation.brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.nav-pills{
+    text-align: right;
+}
+.link-active{
+    font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero-image{
+    border-radius: 40%;
+    border-color:#4ade80;
+    max-width: 200px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.hero-heading{
+    text-align: center;
+    color:#4ade80;
+}
+section h1{
+    text-align: center;
+}
+.section{
+    padding: 2rem;
+}
+
+.ow{
+    background-color: #4ade80;
+}
+
+.footer{
+    background-color: #4ade80;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+.project{
+    text-align: center;
+    
+}
